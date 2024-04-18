@@ -4,14 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="483dfc94-a1c0-448e-a264-3c80dcd1c299" name="Changes" comment="" />
+    <list default="true" id="483dfc94-a1c0-448e-a264-3c80dcd1c299" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/app/WeatherApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/BookInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/LibraryFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/LibraryFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/UserManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/app/LibraryManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib/src.zip!/java.base/java/io/Serial.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib/src.zip!/java.base/java/lang/Double.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,10 +60,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="SADP_Assignment6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +93,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713444704717</updated>
+      <workItem from="1713444706111" duration="6619000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
