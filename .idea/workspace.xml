@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="483dfc94-a1c0-448e-a264-3c80dcd1c299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/app/WeatherApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/BookInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/LibraryFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/LibraryFacadeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/UserManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPatternEx/system/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/app/LibraryManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="483dfc94-a1c0-448e-a264-3c80dcd1c299" name="Changes" comment="Initial COmmit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,11 +79,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713444704717</updated>
-      <workItem from="1713444706111" duration="6619000" />
+      <workItem from="1713444706111" duration="7078000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial COmmit">
+      <created>1713453622468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713453622468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial COmmit">
+      <created>1713453639152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713453639152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial COmmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial COmmit" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package adapterPatternEx.system;
+package facadePatternEx.system;
 
 public class UserManagement {
 }
