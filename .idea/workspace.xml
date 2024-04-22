@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="483dfc94-a1c0-448e-a264-3c80dcd1c299" name="Changes" comment="Initial COmmit" />
+    <list default="true" id="483dfc94-a1c0-448e-a264-3c80dcd1c299" name="Changes" comment="Initial COmmit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/BookInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/LibraryFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/LibManSysFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/LibraryFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/BookInventorySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/UserManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/UserManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Users.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +60,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/olzhasakimbay/IdeaProjects/SADP_Assignment6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,7 +96,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713444704717</updated>
-      <workItem from="1713444706111" duration="7078000" />
+      <workItem from="1713444706111" duration="7203000" />
+      <workItem from="1713499583446" duration="13000" />
+      <workItem from="1713786149329" duration="1708000" />
     </task>
     <task id="LOCAL-00001" summary="Initial COmmit">
       <created>1713453622468</created>
@@ -95,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713453639152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial COmmit">
+      <created>1713453732696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713453732696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
