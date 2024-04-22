@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="483dfc94-a1c0-448e-a264-3c80dcd1c299" name="Changes" comment="Initial COmmit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/BookInventory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/LibraryFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/LibManSysFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/LibraryFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/BookInventorySystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/UserManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/UserManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/app/LibraryManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/app/LibraryManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/BookInventorySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/BookInventorySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/LibManSysFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/UserManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facadePatternEx/system/UserManagementSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LibraryManagementSystem">
+    <configuration name="LibraryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facadePatternEx.app.LibraryManagementSystem" />
+      <module name="SADP_Assignment6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="facadePatternEx.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="SADP_Assignment6" />
@@ -84,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryManagementSystem" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -98,7 +108,7 @@
       <updated>1713444704717</updated>
       <workItem from="1713444706111" duration="7203000" />
       <workItem from="1713499583446" duration="13000" />
-      <workItem from="1713786149329" duration="1708000" />
+      <workItem from="1713786149329" duration="8556000" />
     </task>
     <task id="LOCAL-00001" summary="Initial COmmit">
       <created>1713453622468</created>
@@ -121,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713453732696</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial COmmit">
+      <created>1713790351772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713790351772</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,37 +1,77 @@
 package facadePatternEx.system;
 
-import facadePatternEx.app.LibraryManagementSystem;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
+// Facade
+public class Library {
 
-// Implementatin of Facade
-public class Library implements LibManSysFacade{
-
-    private final BookInventorySystem bis = new BookInventorySystem();
-    private final UserManagementSystem ums = new UserManagementSystem();
+    private final BookInventorySystem bis = BookInventorySystem.getInstance();
+    private final UserManagementSystem ums = UserManagementSystem.getInstance();
 
     public Library(){}
 
-    @Override
     public void borrowBook(User user,Book book) {
-
+        bis.borrow(book,user);
+        ums.borrow(book,user);
     }
 
-    @Override
-    public void returnBook(User user, Book book) {
-
+    public void returnBook(Book book) {
+        bis.returnBack(book);
     }
 
-    @Override
     public List<Book> searchBookByTitle(String title) {
-        return null;
+
+        List<Book> booksByTitle = new ArrayList<>();
+
+        for (Book book: bis.getBookList()) {
+            if (title.equalsIgnoreCase(book.getTitle()))
+                booksByTitle.add(book);
+        }
+
+        return (booksByTitle.size()==0)?null:booksByTitle;
     }
 
-    @Override
     public List<Book> searchBookByAuthor(String author) {
-        return null;
+
+        List<Book> booksByAuthor = new ArrayList<>();
+
+        for(Book book: bis.getBookList()){
+            if(author.equalsIgnoreCase(book.getAuthor()))
+                booksByAuthor.add(book);
+        }
+
+        return (booksByAuthor.size()==0)?null:booksByAuthor;
+    }
+
+    public boolean addBook(Book book){
+        return bis.add(book);
+    }
+
+    public boolean removeBook(Book book){
+        return bis.remove(book);
+    }
+
+    public boolean addUser(User user){
+        return ums.add(user);
+    }
+
+    public boolean removeUser(User user){
+        return ums.remove(user);
+    }
+
+    public List<User> getLibraryClients(){
+        return ums.getUserList();
+    }
+
+    public String aboutUser(User user){
+        return ums.about(user);
+    }
+
+    public String aboutBook(Book book){
+        return bis.about(book);
     }
 
 }
